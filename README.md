@@ -8,6 +8,7 @@ While this repository is a work in progress, you can use it as a simple referenc
 ## Notes
 - The project uses locally hosted `css` and `js` files from the `static/` directory. You have the option to switch to using CDNs, but the local setup is kept for simplicity.
 - An example favicon is included. Refer to the setup process below to add your own favicon.
+- By default, `app.debug = True` is set in `app.py`, enabling live reloads for file changes. You can adjust this setting as needed.
 
 ## Setup
 1. Install Python.
@@ -17,12 +18,13 @@ While this repository is a work in progress, you can use it as a simple referenc
 5. Start the project: `python run.py`
 6. Navigate to `http://127.0.0.1:8888/` to view the page (This is the default port.)
 
+## Favicon Setup
+
 For creating icons, you can use Pixlr: https://pixlr.com/x/
+
 To convert a PNG to a favicon pack: https://favicon.io/favicon-converter/
 
 After downloading favicons, extract them into the `static/images` directory and replace the default ones. Ensure the filenames match.
-
-By default, `app.debug = True` is set in `app.py`, enabling live reloads for file changes. You can adjust this setting as needed.
 
 ## To-Do
 - [x] Update `requirements.txt`
