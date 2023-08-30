@@ -25,7 +25,7 @@ After downloading favicons, extract them into the `static/images` directory and 
 By default, `app.debug = True` is set in `app.py`, enabling live reloads for file changes. You can adjust this setting as needed.
 
 ## To-Do
-- [ ] Update `requirements.txt`
+- [x] Update `requirements.txt`
 - [ ] Add an example page that demonstrates sending and processing data
 - [ ] Implement logging
 - [ ] Add an example page with live updates
